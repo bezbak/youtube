@@ -1,0 +1,45 @@
+.home__inner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.video__block{
+    width: 20%;
+}
+.video__file{
+    max-width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: border-radius .5s;
+}
+.video__file:hover{
+    border-radius: 0;
+}
+.video__info{
+    display: flex;
+    gap: 0 20px;
+    margin: 15px 0;
+}
+.ava__img{
+    max-width: 36px;
+    max-height: 36px;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.videoinfo__inner{
+    display: flex;
+    flex-direction: column;
+}
+.account, .video_views_date{
+    color: #606060;
+}
+.account{
+    margin: 3px 0;
+}
+.video__title{
+    font-size: 18px;
+}
